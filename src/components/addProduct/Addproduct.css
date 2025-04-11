@@ -1,0 +1,117 @@
+.addProduct,
+.addProduct_container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 1rem;
+}
+.addProduct_container {
+  padding: 10px;
+}
+.addProduct > button {
+  width: 80%;
+  border: none;
+  background-color: #fff;
+  box-shadow: 4px 4px 10px #999;
+  padding: 10px;
+  border-radius: 16px;
+  font-size: 18px;
+  font-weight: bold;
+}
+.addProduct_content {
+  display: none;
+  width: 90%;
+  background-color: #fff;
+  box-shadow: 4px 4px 10px #999;
+  padding: 1rem;
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 1rem;
+  overflow: auto;
+  margin-top: -60px;
+  position: relative;
+}
+.addProduct_content > svg {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  cursor: pointer;
+  font-size: 2rem;
+}
+.add_images {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+.add_images img {
+  width: 250px;
+}
+.add_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  flex-direction: column;
+}
+.add_container > svg {
+  font-size: 8rem;
+}
+.add_images input {
+  width: 100%;
+  background-color: red;
+}
+.add_product_inputs,
+.add_product_price,
+.add_product_desc,
+.add_product_select {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+.add_product_inputs input,
+.add_product_price input,
+.add_product_desc textarea,
+.add_product_select select {
+  padding: 10px;
+  width: 100%;
+  outline: none;
+  border-radius: 10px;
+  border: 1px solid #aaa;
+}
+.add_product_desc textarea {
+  height: 200px;
+}
+.add_btn {
+  width: 200px;
+  background-color: #fff;
+  box-shadow: 4px 4px 10px #999;
+  padding: 10px;
+  outline: none;
+  border: 2px solid #aaa;
+  transition: 0.3s ease;
+  font-size: 18px;
+}
+.add_btn:hover {
+  border: 2px solid #000;
+}
+
+@media screen and (max-width: 789px) {
+  .addProduct > button {
+    width: 100%;
+  }
+  .addProduct_container {
+    padding: 5px;
+  }
+  .addProduct_content {
+    width: 100%;
+  }
+}

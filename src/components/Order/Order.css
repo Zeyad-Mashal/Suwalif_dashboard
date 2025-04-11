@@ -1,0 +1,89 @@
+.order,
+.order_contanier {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.order {
+  margin-top: 6rem;
+}
+.order_list {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  padding: 1rem 0;
+}
+.order_item {
+  width: 350px;
+  background-color: #fff;
+  border: 2px solid #aaa;
+  border-radius: 16px;
+  box-shadow: 4px 4px 10px #999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  direction: rtl;
+  gap: 1rem;
+  padding: 10px;
+  cursor: pointer;
+}
+.item_header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+.order_item .item_header h3 {
+  font-size: 1.3rem;
+}
+.order_item > span {
+  font-size: 0.9rem;
+}
+.order_item p {
+  width: 100%;
+  border: none;
+  outline: none;
+  resize: none;
+}
+.order_details {
+  width: 70%;
+  background-color: #fff;
+  box-shadow: 4px 4px 10px #999;
+  border: 2px solid #aaa;
+  border-radius: 10px;
+  position: fixed;
+  top: 10%;
+  padding: 1rem 0;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  flex-direction: column;
+  z-index: 999999;
+}
+.order_details_btns {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  width: 100%;
+}
+
+.order_details_btns button {
+  width: 120px;
+  border: 2px solid #aaa;
+  box-shadow: 4px 4px 10px #999;
+  border-radius: 10px;
+  outline: none;
+  padding: 10px;
+  transition: 0.3s ease;
+}
+.order_details_btns button:hover {
+  border: 2px solid #000;
+}

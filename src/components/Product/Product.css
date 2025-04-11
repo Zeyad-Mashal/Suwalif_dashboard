@@ -1,0 +1,107 @@
+.product,
+.product_container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.product {
+  margin-top: 6rem;
+}
+.product_list {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+.porduct_item {
+  width: 350px;
+  border: 2px solid #aaa;
+  border-radius: 16px;
+  box-shadow: 4px 4px 10px #999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.porduct_item img {
+  width: 200px;
+  margin-bottom: 1rem;
+}
+.product_content {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+.product_content h3 {
+  font-size: 1.1rem;
+  font-weight: bold;
+  padding-left: 5px;
+}
+.product_content span {
+  font-size: 0.9rem;
+  font-weight: bold;
+
+  width: 100px;
+  background-color: #aaa;
+}
+.product_btns {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+.product_btns button {
+  width: 120px;
+  padding: 10px;
+  border: 2px solid #aaa;
+  outline: none;
+  font-weight: bold;
+  transition: 0.3s ease;
+}
+
+.product_btns button:hover {
+  border: 2px solid #000;
+  border-radius: 10px;
+}
+.delete_product {
+  display: none;
+  width: 40%;
+  background-color: #fff;
+  box-shadow: 4px 4px 10px #999;
+  padding: 1rem;
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 1rem;
+  overflow: auto;
+  position: fixed;
+  top: 14rem;
+}
+.delete_product_btns {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+.delete_product_btns button {
+  padding: 10px;
+  width: 120px;
+  border: 2px solid #aaa;
+  transition: 0.3s ease;
+}
+.delete_product_btns button:first-child:hover {
+  border: 2px solid red;
+}
+.delete_product_btns button:last-child:hover {
+  border: 2px solid green;
+}

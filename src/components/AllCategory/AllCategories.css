@@ -1,0 +1,101 @@
+.categories,
+.categories_container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.categories > h3 {
+  font-size: 1.6rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+.categories_list {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+.categories_item {
+  background-color: #fff;
+  box-shadow: 4px 4px 10px #999;
+  border-radius: 16px;
+  padding: 1rem;
+  width: 250px;
+  height: auto;
+  cursor: pointer;
+}
+.categories_item > a {
+  color: #000;
+}
+.allCategory_content {
+  display: none;
+  width: 60%;
+  background-color: #fff;
+  box-shadow: 4px 4px 10px #999;
+  padding: 1rem;
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 1rem;
+  overflow: auto;
+  position: fixed;
+  z-index: 999;
+  padding-top: 4rem;
+}
+.allCategory_content > svg {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-size: 2rem;
+  cursor: pointer;
+}
+.allCategory_content_inputs {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  gap: 1rem;
+}
+.allCategory_content_inputs input {
+  width: 100%;
+  padding: 10px;
+  border: 2px solid #aaa;
+  border-radius: 10px;
+  outline: none;
+}
+.allCategory_content > button {
+  background-color: #fff;
+  border: 2px solid #aaa;
+  width: 200px;
+  height: 50px;
+  font-size: 18px;
+  transition: 0.3s ease;
+}
+.allCategory_content > button:hover {
+  border: 2px solid #000;
+}
+.categories_item_btns {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+.categories_item_btns button {
+  padding: 10px;
+  width: 80px;
+  border: 2px solid #aaa;
+  outline: none;
+  border-radius: 10px;
+  transition: 0.3s ease;
+}
+.categories_item_btns button:hover {
+  border: 2px solid #000;
+}

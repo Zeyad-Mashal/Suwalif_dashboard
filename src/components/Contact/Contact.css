@@ -1,0 +1,100 @@
+.contact,
+.contact_container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.contact {
+  margin-top: 6rem;
+}
+.contact_list {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 1rem;
+  padding-bottom: 1rem;
+}
+.contact_item {
+  width: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: 2px solid #aaa;
+  box-shadow: 4px 4px 10px #999;
+  border-radius: 16px;
+  padding: 1rem;
+}
+.contact_item h3 {
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+.contact_item p {
+  font-size: 1rem;
+  font-weight: bold;
+  color: goldenrod;
+}
+.contact_item textarea {
+  width: 100%;
+  border: none;
+  border-radius: 16px;
+  height: auto;
+  resize: none;
+  outline: none;
+  direction: rtl;
+}
+.contact_btns {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+.contact_btns button,
+.delete_contact_btns button {
+  padding: 10px;
+  width: 100px;
+  margin: 1rem 0;
+  border: 2px solid #aaa;
+  border-radius: 10px;
+  transition: 0.3s ease;
+}
+.contact_btns button:hover,
+.delete_contact_btns button:hover {
+  border: 2px solid #000;
+}
+.contact_delete {
+  width: 40%;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 1rem;
+  background-color: #fff;
+  border: 2px solid #aaa;
+  padding: 1rem;
+  box-shadow: 4px 4px 10px #999;
+  border-radius: 16px;
+  position: fixed;
+  top: 40%;
+}
+.delete_contact_btns {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+.show {
+  background-color: green;
+  color: #fff;
+}
+.hide {
+  background-color: red;
+  color: #fff;
+}
