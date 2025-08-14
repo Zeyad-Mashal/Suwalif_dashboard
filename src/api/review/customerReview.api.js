@@ -1,4 +1,4 @@
-const URL = "https://back.suwalifstore.com/feedback/get";
+const URL = "https://suwalif-s9rn.onrender.com/feedback/get";
 const customerReview = async (setError, setAllFeedbacks, setLoading) => {
     setLoading(true)
     try {

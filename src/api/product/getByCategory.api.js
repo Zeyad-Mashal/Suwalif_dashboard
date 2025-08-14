@@ -1,4 +1,4 @@
-const URL = "https://back.suwalifstore.com/product/getByCategory/";
+const URL = "https://suwalif-s9rn.onrender.com/product/getByCategory/";
 const getByCategory = async (setError, setAllProducts, setLoading, CategoryID) => {
     setLoading(true)
     try {

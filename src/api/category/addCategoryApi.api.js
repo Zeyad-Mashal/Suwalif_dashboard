@@ -1,4 +1,4 @@
-const URL = "https://back.suwalifstore.com/category/add";
+const URL = "https://suwalif-s9rn.onrender.com/category/add";
 const USER_TOKEN = localStorage.getItem("USER_TOKEN")
 const addCategoryApi = async (data, setError, setAllCategories, setLoading) => {
     setLoading(true)

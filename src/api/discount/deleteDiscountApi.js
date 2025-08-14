@@ -1,4 +1,4 @@
-const URL = "https://back.suwalifstore.com/discount/remove/";
+const URL = "https://suwalif-s9rn.onrender.com/discount/remove/";
 const USER_TOKEN = localStorage.getItem("USER_TOKEN");
 const deleteDiscountApi = async (setError, setAllDiscount, setLoading, discountId) => {
     setLoading(true)

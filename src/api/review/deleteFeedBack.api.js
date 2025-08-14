@@ -1,4 +1,4 @@
-const URL = "https://back.suwalifstore.com/feedback/remove/";
+const URL = "https://suwalif-s9rn.onrender.com/feedback/remove/";
 const USER_TOKEN = localStorage.getItem("USER_TOKEN");
 const deleteFeedBack = async (setError, setAllFeedbacks, setDeleteLoading, feedbackId) => {
     setDeleteLoading(true)

@@ -1,4 +1,4 @@
-const URL = "https://back.suwalifstore.com/feedBack/visible/";
+const URL = "https://suwalif-s9rn.onrender.com/feedBack/visible/";
 const USER_TOKEN = localStorage.getItem("USER_TOKEN");
 const showFeedBack = async (feedbackData, setError, setAllFeedbacks, setvisibleLoading, feedbackId) => {
     setvisibleLoading(true)

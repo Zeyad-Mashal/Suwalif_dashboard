@@ -1,4 +1,4 @@
-const URL = "https://back.suwalifstore.com/coupon/get";
+const URL = "https://suwalif-s9rn.onrender.com/coupon/get";
 const USER_TOKEN = localStorage.getItem("USER_TOKEN")
 const getCopounApi = async (setError, setAllCopouns, setLoading) => {
     setLoading(true)

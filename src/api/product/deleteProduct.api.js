@@ -1,4 +1,4 @@
-const URL = "https://back.suwalifstore.com/product/remove/";
+const URL = "https://suwalif-s9rn.onrender.com/product/remove/";
 const USER_TOKEN = localStorage.getItem("USER_TOKEN");
 const deleteProduct = async (setError, setAllProducts, setLoading, productID) => {
     setLoading(true)

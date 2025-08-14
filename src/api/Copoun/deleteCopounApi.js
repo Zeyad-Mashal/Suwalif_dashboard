@@ -1,4 +1,4 @@
-const URL = "https://back.suwalifstore.com/coupon/remove/";
+const URL = "https://suwalif-s9rn.onrender.com/coupon/remove/";
 const USER_TOKEN = localStorage.getItem("USER_TOKEN");
 const deleteCopounApi = async (setError, setAllCopouns, setLoading, CopounID) => {
     setLoading(true)

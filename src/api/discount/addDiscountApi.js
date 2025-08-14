@@ -1,4 +1,4 @@
-const URL = "https://back.suwalifstore.com/discount/add";
+const URL = "https://suwalif-s9rn.onrender.com/discount/add";
 const USER_TOKEN = localStorage.getItem("USER_TOKEN")
 const addDiscountApi = async (discountData, setError, setLoading, setAllDiscount) => {
     setLoading(true)

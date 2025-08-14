@@ -1,4 +1,4 @@
-const URL = "https://back.suwalifstore.com/category/get";
+const URL = "https://suwalif-s9rn.onrender.com/category/get";
 const getAllCategoriesApi = async (setError, setAllCategories, setLoading) => {
     setLoading(true)
     try {

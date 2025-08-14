@@ -1,4 +1,4 @@
-const URL = "https://back.suwalifstore.com/admin/login";
+const URL = "https://suwalif-s9rn.onrender.com/admin/login";
 const AdminLogin = async (data, setError) => {
     try {
         const response = await fetch(URL, {

@@ -1,4 +1,4 @@
-const URL = "https://back.suwalifstore.com/product/update/";
+const URL = "https://suwalif-s9rn.onrender.com/product/update/";
 const USER_TOKEN = localStorage.getItem("USER_TOKEN");
 const updateProduct = async (productData, setError, setAllProducts, setLoading, productId) => {
     setLoading(true)

@@ -1,4 +1,4 @@
-const URL = "https://back.suwalifstore.com/category/delete/";
+const URL = "https://suwalif-s9rn.onrender.com/category/delete/";
 const USER_TOKEN = localStorage.getItem("USER_TOKEN");
 const deleteCategoryApi = async (setError, setAllCategories, setLoading, CategoryID) => {
     setLoading(true)
