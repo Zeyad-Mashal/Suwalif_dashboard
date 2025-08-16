@@ -16,7 +16,7 @@ function App() {
       {isAuth ? <Navbar /> : null}
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={isAuth ? <Navigate to='/category' /> : <Login />} />
+          <Route path="/" element={isAuth ? <Navigate to='/order' /> : <Login />} />
           <Route path="/category" element={isAuth ? <AddCategory /> : <Navigate to='/' />} />
           <Route path="/product/:CategoryID" element={isAuth ? <Product /> : <Navigate to='/' />} />
           <Route path="/discount" element={isAuth ? <Discount /> : <Navigate to='/' />} />
