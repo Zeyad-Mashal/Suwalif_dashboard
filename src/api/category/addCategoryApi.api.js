@@ -15,13 +15,14 @@ const addCategoryApi = async (data, setError, setAllCategories, setLoading) => {
         const result = await response.json();
 
         if (response.ok) {
-            localStorage.setItem("USER_TOKEN", result.token)
+            // localStorage.setItem("USER_TOKEN", result.token)
             setAllCategories(result.categories)
             setLoading(false)
             document.querySelector(".addCategory_content").style.display = "none"
         } else {
-            if (response.status == 500) {
+            if (response.status == 404) {
                 setError(result.message);
+                console.log(result.message);
             }
             setLoading(false)
         }

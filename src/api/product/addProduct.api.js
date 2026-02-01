@@ -18,8 +18,9 @@ const addProduct = async (productData, setError, setLoading, setAllProducts) => 
             setAllProducts(result.productsInCategory)
             document.querySelector(".addProduct_content").style.display = "none";
         } else {
-            if (response.status == 400) {
+            if (response.status == 404) {
                 setError(result.message);
+                console.log(result.message);
             } else if (response.status == 500) {
                 setError(result.message);
             }

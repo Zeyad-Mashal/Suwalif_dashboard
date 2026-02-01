@@ -14,8 +14,6 @@ const AdminLogin = async (data, setError) => {
         if (response.ok) {
             localStorage.setItem("USER_TOKEN", result.token)
             window.location.reload()
-
-
         } else {
             if (response.status == 400) {
                 setError(result.message);
